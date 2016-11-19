@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 namespace RStamp
 {
+	[Serializable()]
 	public class StampStrings
 	{
 		public List<string> RoundStrings;
@@ -22,6 +23,9 @@ namespace RStamp
 			RoundStrings.Add("This is a second round string");
 			RoundStringParameters.Add(new StampStringsParams());
 			RoundStringParameters.Add(new StampStringsParams());
+
+			CentralStrings.Add("Central String");
+			CentralStringParameters.Add(new StampStringsParams());
 		}
 	}
 }

@@ -3,6 +3,7 @@ using Cairo;
 
 namespace RStamp
 {
+	[Serializable()]
 	public class StampStringsParams
 	{
 		public string FontFamily { get; set;}
