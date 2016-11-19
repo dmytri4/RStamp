@@ -21,6 +21,8 @@ namespace RStamp
 		public double SpaceWidthMm { get; set;}
 		public double TabWidthMm { get; set;}
 
+		public short DelimiterCharUtf8 { get; set;}
+
 		public StampStringsParams()
 		{
 			FontFamily = "Arial";			//Def font family is standard windows Arial 
@@ -35,6 +37,8 @@ namespace RStamp
 			IndentBottomMm = 0.0;
 			SpaceWidthMm = FontSizeMm;
 			TabWidthMm = 3.0 * FontSizeMm;
+
+			DelimiterCharUtf8 = (short)'*';
 		}
 	}
 }
