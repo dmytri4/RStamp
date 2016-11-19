@@ -9,11 +9,13 @@ namespace RStamp
 	{
 		public double Diameter { get; set;}
 		public StampBordersInfo Border;
+		public StampStrings Strings;
 
 		public Stamp()
 		{
 			Diameter = 50; //Rs=50mm
 			Border   = new StampBordersInfo();
+			Strings  = new StampStrings();
 		}
 	}
 }
