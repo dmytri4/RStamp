@@ -7,13 +7,13 @@ namespace RStamp
 	[Serializable()]
 	public class Stamp
 	{
-		public double StampDiameter { get; set;}
-		public StampBordersInfo BorderGeometry;
+		public double Diameter { get; set;}
+		public StampBordersInfo Border;
 
 		public Stamp()
 		{
-			StampDiameter = 50; //Rs=50mm
-			BorderGeometry = new StampBordersInfo();
+			Diameter = 50; //Rs=50mm
+			Border   = new StampBordersInfo();
 		}
 	}
 }
