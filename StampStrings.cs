@@ -11,10 +11,17 @@ namespace RStamp
 
 		public StampStrings()
 		{
+			//Creating an empty lists
 			RoundStrings = new List<string>();
 			CentralStrings = new List<string>();
 			RoundStringParameters = new List<StampStringsParams>();
 			CentralStringParameters = new List<StampStringsParams>();
+
+			//Setting default values to lists
+			RoundStrings.Add("This is a first round string");
+			RoundStrings.Add("This is a second round string");
+			RoundStringParameters.Add(new StampStringsParams());
+			RoundStringParameters.Add(new StampStringsParams());
 		}
 	}
 }
