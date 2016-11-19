@@ -1,0 +1,2 @@
+# RStamp
+Stamp editing software
