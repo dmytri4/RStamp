@@ -6,8 +6,11 @@ namespace RStamp
 {
 	public class Stamp
 	{
+		public double StampDiameter { get; set;}
+
 		public Stamp()
 		{
+			StampDiameter = 50; //Rs=50mm
 		}
 	}
 }
