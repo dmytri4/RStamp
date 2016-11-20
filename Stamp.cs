@@ -13,8 +13,6 @@ namespace RStamp
 		public StampStrings Strings;
 		public StampImages Images;
 
-		private string Base64EncodedCenterImg;
-
 		//Default Ctor
 		public Stamp()
 		{
