@@ -38,7 +38,7 @@ namespace RStamp
 			SpaceWidthMm = FontSizeMm;		//Def width of the spaces is equal to font size
 			TabWidthMm = 3.0 * FontSizeMm;	//Def tabulation width is equal font size multiplied by three
 
-			DelimiterCharUtf8 = (short)'*';	//Def delimiter char is star symbol
+			DelimiterCharUtf8 = (short)'*';	 //Def delimiter char is star symbol
 		}
 	}
 }
