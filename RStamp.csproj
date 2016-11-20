@@ -66,6 +66,7 @@
     <Compile Include="StampBordersInfo.cs" />
     <Compile Include="StampStrings.cs" />
     <Compile Include="StampStringsParams.cs" />
+    <Compile Include="StampImages.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

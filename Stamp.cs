@@ -11,6 +11,7 @@ namespace RStamp
 		public double Diameter { get; set; }
 		public StampBordersInfo Border;
 		public StampStrings Strings;
+		public StampImages Images;
 
 		private string Base64EncodedCenterImg;
 
@@ -20,6 +21,7 @@ namespace RStamp
 			Diameter = 50; //Rs=50mm
 			Border = new StampBordersInfo();
 			Strings = new StampStrings();
+			Images = new StampImages();
 		}
 
 		//Save Stamp object into xml file
