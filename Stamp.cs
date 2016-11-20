@@ -17,9 +17,9 @@ namespace RStamp
 		public Stamp()
 		{
 			Diameter = 50; //Rs=50mm
-			Border = new StampBordersInfo();
-			Strings = new StampStrings();
-			Images = new StampImages();
+			Border   = new StampBordersInfo();
+			Strings  = new StampStrings();
+			Images   = new StampImages();
 		}
 
 		//Save Stamp object into xml file
